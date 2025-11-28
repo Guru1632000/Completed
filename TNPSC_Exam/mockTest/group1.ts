@@ -1,0 +1,17 @@
+import { 
+    gsUnit1, gsUnit2, gsUnit3, gsUnit4, gsUnit5, gsUnit6,
+    aptitudeUnit, reasoningUnit
+} from '../common/syllabus';
+
+export const TNPSC_GROUP1_MOCK_TEST_UNIT_DISTRIBUTION = [
+    // General Studies (175 Qs)
+    { name: 'General Studies', topics: gsUnit1.topics, questionCount: 29 }, // Science
+    { name: 'General Studies', topics: gsUnit2.topics, questionCount: 29 }, // Geography
+    { name: 'General Studies', topics: gsUnit3.topics, questionCount: 29 }, // History & INM
+    { name: 'General Studies', topics: gsUnit4.topics, questionCount: 29 }, // Polity
+    { name: 'General Studies', topics: gsUnit5.topics, questionCount: 30 }, // Economy & TN Admin
+    { name: 'General Studies', topics: gsUnit6.topics, questionCount: 29 }, // TN History & Culture
+    // Maths (25 Qs)
+    { name: 'Maths', topics: aptitudeUnit.topics, questionCount: 13 },
+    { name: 'Maths', topics: reasoningUnit.topics, questionCount: 12 },
+];

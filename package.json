@@ -1,0 +1,11 @@
+{
+  "name": "ai-exam-prep",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "mkdir -p dist && npx esbuild index.tsx --bundle --outfile=dist/bundle.js --loader:.tsx=tsx && cp index.html dist/index.html && cp metadata.json dist/metadata.json"
+  },
+  "devDependencies": {
+    "esbuild": "^0.20.0"
+  }
+}
